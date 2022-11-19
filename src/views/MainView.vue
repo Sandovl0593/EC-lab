@@ -16,7 +16,9 @@ export default {
     },
     toMinutesAndSeconds(millis) {
       /* TODO: implementar esta funcion */
-      return "";
+      const Seconds = parseInt(millis*60000);
+      const milisegundos = parseInt (Seconds*1000)
+      return Number(`${milisegundos}`);
     },
   },
   data() {

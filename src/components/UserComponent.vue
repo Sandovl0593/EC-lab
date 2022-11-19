@@ -7,4 +7,6 @@ export default {
 
 <template>
   {{ /*TODO: rellenar la pagina con los datos del usuario */}}
+  <h1>Followers: {{followers}}</h1>
+  <img :src="img"/>
 </template>
